@@ -9,10 +9,10 @@ Heroku url: [Click here](https://donald-kodobe.herokuapp.com/)
 
 Title : Dynamic Data Mapper
 Create a web service that is accessible via REST API with JSON data transfer. The
-service should support the following functionality:
+service supports the following functionality:
 
-1. Supports creation of a data specification for an external data for such that it
-will map fields of the external data to data types (Restrict Data type to string,
+1. Supports creation of a data specification for an external data, such that it
+ will map fields of the external data to data types (Restrict Data type to string,
 integer and timestamp)
 
 2. Supports retrieval of data for a particular Data Provider
