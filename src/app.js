@@ -15,7 +15,7 @@ app.use(express.urlencoded({ extended: true }));
 
 app.get("/", (req, res) => res.send("Welcome to Donald Kodobe assesment solution"));
 
-app.use("/api/v1/", router);
+app.use("/", router);
 
 // Global 404 error handler
 app.all("*", (req, res) => res.status(404).json({
